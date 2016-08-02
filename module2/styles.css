@@ -1,0 +1,114 @@
+ * {
+	box-sizing: border-box;
+	/*margin:0;
+	padding:0;*/
+}
+#h {
+	text-align: center;
+	padding:50px;
+	font-family: "Times New Roman", Times, serif;
+	font-size: 60px;
+}
+
+/* For Corner Side Display*/
+.p {
+	
+	background-color:#006666;
+	color:#ffffff;
+	position: absolute;
+	text-align: center;
+	top: -17px;
+	right: -1px;
+	padding: 10px;
+	border : 1px solid black;
+	width: 40%;
+
+}
+.q {
+	
+	background-color:#ccffff;
+
+	position: absolute;
+	text-align: center;
+	top: -17px;
+	right: -1px;
+	padding: 10px;
+	border : 1px solid black;
+	width: 40%;
+}
+.r {
+	
+	background-color:#40ff00;
+
+	position: absolute;
+	text-align: center;
+	top: -17px;
+	right: -1px;
+	padding: 10px;
+	border : 1px solid black;
+	width: 40%;
+}
+/***Description about menu***/
+#chicken {
+	background-color: #ffbf00;
+	color: #000000;
+	float:left;
+	margin-bottom: 15px;
+	height: 180px;
+	padding: 10px;
+	border : 1px solid black;
+	padding-top: 30px;
+	position: relative;
+
+}
+#pork {
+	background-color: #2f4f4f;
+	color: #000000;
+	float:left;
+	margin-bottom: 15px;
+	padding: 10px;
+	height: 180px;
+	border : 1px solid black;
+	padding-top: 30px;
+	position: relative;
+}
+#egg {
+	background-color: #80ff00;
+	color: #000000;
+	float:left;
+	margin-bottom: 15px;
+	height: 180px;
+	padding: 10px;
+	padding-top: 30px;
+	border : 1px solid black;
+	position: relative;
+}
+
+/*** For desktop diaplay***/
+@media (min-width: 992px) {
+  .col-lg-4 {
+    width: 30%;
+    margin-left: 20px;
+  }
+}
+/*** For tablet diaplay***/
+@media (min-width: 768px) and (max-width: 991px) {
+  .col-md-6 {
+    width: 46%;
+    margin-left:20px;
+	
+  }
+  .col-md-12 {
+    width: 95%;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+}
+/*** For mobiles ***/
+@media (max-width: 767px) {
+  .col-sm-12 {
+    width: 95%;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+}
